@@ -1,0 +1,24 @@
+
+@media screen and (max-width: 940px) {
+    .dropdown {
+        display: none !important;
+    }
+}
+
+
+@media screen and (min-width: 940px) {
+    .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .mobile-switcher {
+          display: none;
+      }
+
+      
+}
+@media screen and (max-width: 414px) {
+    #formLogin {
+        width: 309px;
+    }
+      
+}
